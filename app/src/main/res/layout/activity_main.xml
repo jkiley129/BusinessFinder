@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/businessImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/contactPhoneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callBusiness"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/addressButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="routeToBusiness"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <TextView
+        android:id="@+id/hoursTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/descriptionTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
