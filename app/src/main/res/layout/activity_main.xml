@@ -1,7 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_height="match_parent"
     android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
 
     <ImageView
@@ -12,30 +12,45 @@
     <TextView
         android:id="@+id/nameLabel"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#616161"
+        android:textSize="30sp" />
 
     <Button
         android:id="@+id/contactPhoneButton"
-        android:layout_width="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="callBusiness"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:layout_margin="10dp"
+        android:onClick="onPhoneNumberClick"
+        android:textColor="#1E88E5"
+        android:textSize="15sp" />
 
     <Button
         android:id="@+id/addressButton"
-        android:layout_width="match_parent"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="routeToBusiness"
-        style="?android:attr/borderlessButtonStyle"/>
+        android:layout_margin="10dp"
+        android:onClick="onAddressClick"
+        android:textColor="#1E88E5"
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/hoursTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:lineSpacingExtra="5sp"
+        android:textSize="22sp" />
 
     <TextView
         android:id="@+id/descriptionTextView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:textSize="20sp" />
 
 </LinearLayout>
