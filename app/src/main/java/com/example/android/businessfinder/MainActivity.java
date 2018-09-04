@@ -21,6 +21,9 @@ public class MainActivity extends AppCompatActivity {
     TextView businessDescriptionTextView;
 
     // Properties
+
+    // NOTE - All information for this business, including the picture, comes from their Google Maps page. If you wish to check my source, please look at the Google Maps listing for Patent Coffee in NYC
+
     private String businessName = "Patent Coffee";
     private String addressURL = "https://www.google.com/maps/dir/''/patent+coffee/@40.7453151,-74.0602495,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x89c259a5ec84b6a3:0x133687c71012544c!2m2!1d-73.9902096!2d40.7453363";
     private String businessAddress = "49 W 27th St, New York, NY 10001";
