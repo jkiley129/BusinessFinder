@@ -47,12 +47,12 @@ public class MainActivity extends AppCompatActivity {
         businessHoursTextView = findViewById(R.id.hoursTextView);
         businessDescriptionTextView = findViewById(R.id.descriptionTextView);
 
-        businessImageView.setImageResource(R.drawable.);
+        businessImageView.setImageResource(R.drawable.patent_min);
         businessNameTextView.setText(businessName);
         businessPhoneButton.setText("Phone: " + businessPhoneNumberPretty);
         businessAddressButton.setText("Address: " + businessAddress);
         businessHoursTextView.setText("Hours of Operation:\n" + businessHours);
-        businessDescriptionTextView.setText("Description: " + businessDescription);
+        businessDescriptionTextView.setText("Description:\n\n" + businessDescription);
     }
 
     // Actions
